@@ -12,14 +12,19 @@ for (let i = 0; i < dogImages.length; i++)
     dogImages[i].style.borderRadius = '50px'
 }
 
-let paragraphs = document.querySelectorAll('.dog-description')
-for (let i = 0; i < paragraphs.length; i++)
+let columns = document.querySelectorAll('.column')
+for (let i = 0; i < columns.length; i++)
 {
-    paragraphs[i].style.textAlign = 'justify' 
-    paragraphs[i].style.textIndent = '10px' 
+    columns[i].style.border = '1px solid lightgrey' 
+    columns[i].style.margin = '10px'
+    let p=columns[i].querySelector('.dog-description')
+    p.style.textAlign = 'justify' 
+    p.style.textIndent = '10px'
 }
 
+
 let footer = document.querySelector('.footer')
+footer.style.color = 'red'
 footer.style.border = "1px solid black"
 
 
