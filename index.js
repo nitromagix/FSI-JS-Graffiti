@@ -22,3 +22,5 @@ for (let i = 0; i < paragraphs.length; i++)
 let footer = document.querySelector('.footer')
 footer.style.border = "1px solid black"
 
+
+
